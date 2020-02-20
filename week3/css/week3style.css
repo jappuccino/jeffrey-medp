@@ -1,7 +1,7 @@
 #package{
 	width: 720px;
 	height: 240px;
-	background-color:black;
+	background-color:dark-brown;
 	position: relative;
 }
 
@@ -11,7 +11,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 200px;
+	font-size: 150px;
 	color:white;
 	font-style: normal;
 	font-weight:bold;
@@ -23,7 +23,7 @@
 	top: 34%;
 	left: 50%;
 	transform: translated(-50%, 0%);
-	font-family:helvetica;
+	font-family:sans-serif;
 	font-weight:normal;
 	letter-spacing:4px;
 	font-size:30px;
@@ -34,7 +34,7 @@
 	position: absolute;
 	bottom: 7%;
 	left: 3%;
-	font-family:ariel;
+	font-family:sans-serif;
 	text-align:center;
 
 }
@@ -42,10 +42,10 @@
 	position: absolute;
 	top: 7%;
 	left: 3%;
-	font-family:ariel;
+	font-family:sans-serif;
 	font-size: 5px;
 	text-align: center;
-	background-color:brown;
+	background-color:dark-brown;
 	.vertical-text {
 		transform: rotate(-90deg);
 		transform-origin: left top 0;
