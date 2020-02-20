@@ -1,0 +1,59 @@
+#package{
+	width: 720px;
+	height: 240px;
+	background-color:black;
+	position: relative;
+}
+
+#name{
+	margin:0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200px;
+	color:white;
+	font-style: normal;
+	font-weight:bold;
+	font-family:helvetica compressed;
+	letter-spacing: -5px;
+}
+#subtitle{
+	position:absolute;
+	top: 34%;
+	left: 50%;
+	transform: translated(-50%, 0%);
+	font-family:helvetica;
+	font-weight:normal;
+	letter-spacing:4px;
+	font-size:30px;
+	color:white;
+	background-color: brown;
+}
+#weight{
+	position: absolute;
+	bottom: 7%;
+	left: 3%;
+	font-family:ariel;
+	text-align:center;
+
+}
+#date{
+	position: absolute;
+	top: 7%;
+	left: 3%;
+	font-family:ariel;
+	font-size: 5px;
+	text-align: center;
+	background-color:brown;
+	.vertical-text {
+		transform: rotate(-90deg);
+		transform-origin: left top 0;
+	}
+}
+#original_candy{
+	width: 720px;
+}
+#original_img{
+	width: 100%;
+}
