@@ -1,5 +1,5 @@
 body{
-  background-image:metofuji.jpeg;
+  background-image:url(metofuji.jpeg);
   background-size:cover;
   background-repeat:no-repeat;
   padding-top: 10px;
