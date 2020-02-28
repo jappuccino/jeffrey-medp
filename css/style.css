@@ -1,0 +1,82 @@
+body{
+  background-image:url(metofuji.jpeg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-top: 10px;
+} 
+
+.typewriter h1{
+  position:absolute;
+  bottom: 50%;
+  left: 10%;
+  color: black; 
+  font-family: "Copse";
+  font-size: 100px;
+  font-weight: lighter;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 5s steps(60, end); 
+}
+
+p{
+  color: black; 
+  position: fixed;
+  bottom: 40%;
+  left: 10%;
+  font-family: "Copse";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 40em;
+  animation: type 6s steps(30, end); 
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+span{
+  animation: blink 1s infinite;
+}
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.menu{
+	position: absolute;
+  right: 25%;
+}
+.menu_list{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Copse', serif;
+  	font-size: 80px;
+}
+.work_list{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Copse', serif;
+  	font-size: 28px;
+}
+
+#menu_about:hover{
+	color:#005D78;
+}
+#menu_works:hover{
+	color:#005D78;
+}
+
+.work_list:hover{
+  color:#005D78;
+}
