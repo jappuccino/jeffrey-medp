@@ -1,85 +1,56 @@
-body{
+body {
   background-image:url(metofuji.jpeg);
   background-size:cover;
   background-repeat:no-repeat;
   padding-top: 10px;
   width: 100%;
-  height: 100%;
+  height: 100;
   position: absolute;
 }
-
-.typewriter h1{
-  position:absolute;
-  bottom: 50%;
-  left: 10%;
-  color: black; 
-  font-family: "Copse";
-  font-size: 100px;
-  font-weight: lighter;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 5s steps(60, end); 
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    position: fixed;
+    left: 30px;
+}
+nav ul li, footer ul li {
+    display: margin-right: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.45em;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+    font-size; 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h3 {
+    font-size; 1.80em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-p{
-  color: black; 
-  position: fixed;
-  bottom: 40%;
-  left: 10%;
-  font-family: "Copse";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 40em;
-  animation: type 6s steps(30, end); 
+p {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-family:'Calibri', 'Arial', 'Sans-Serif';
 }
 
-@keyframes type{ 
-  from { width: 0; } 
-} 
-
-span{
-  animation: blink 1s infinite;
-}
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; } 
-} 
-
-@keyframes blink{
-  to{opacity: .0;}
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-.menu{
-	position: absolute;
-  right: 25%;
-}
-.menu_list{
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	font-family: 'Copse', serif;
-  	font-size: 80px;
-}
-.work_list{
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	font-family: 'Copse', serif;
-  	font-size: 28px;
-}
-
-#menu_about:hover{
-	color:#005D78;
-}
-#menu_works:hover{
-	color:#005D78;
-}
-
-.work_list:hover{
-  color:#005D78;
+ul.posts li {
+    list-style: none;
 }
